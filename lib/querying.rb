@@ -8,7 +8,7 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT species COUNT(species) FROM characters ORDER BY species DESC LIMIT 1;"
+  "SELECT species, COUNT(species) FROM characters ORDER BY species DESC LIMIT 1;"
 end
 
 def select_name_and_series_subgenres_of_authors
@@ -22,5 +22,3 @@ end
 def select_character_names_and_number_of_books_they_are_in
   "Write your SQL query here"
 end
-
-end 
